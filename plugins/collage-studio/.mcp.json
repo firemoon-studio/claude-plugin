@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-collage-studio": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/collage-studio/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "firemoon-speed-studio",
+  "displayName": "Speed Studio",
+  "version": "1.0.0",
+  "description": "Speed up or slow down short videos, with audio tempo matched. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "video",
+    "speed",
+    "slow-motion",
+    "timelapse"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-color-match": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/color-match/mcp"
+    }
+  }
+}

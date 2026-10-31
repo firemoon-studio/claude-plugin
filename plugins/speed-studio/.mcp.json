@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-speed-studio": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/speed-studio/mcp"
+    }
+  }
+}

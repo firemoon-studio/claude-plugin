@@ -1,0 +1,20 @@
+{
+  "name": "firemoon-collage-studio",
+  "displayName": "Collage Studio",
+  "version": "1.0.0",
+  "description": "Arrange two to six photos into a grid, story or strip. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "image",
+    "collage",
+    "photos"
+  ]
+}

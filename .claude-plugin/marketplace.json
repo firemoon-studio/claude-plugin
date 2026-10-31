@@ -1,0 +1,69 @@
+{
+  "name": "firemoon",
+  "owner": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "metadata": {
+    "description": "Firemoon Studio media utilities for Claude: fixed video and photo edits with no AI generation.",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "firemoon-video-crop",
+      "source": "./plugins/video-crop",
+      "description": "Center-crop short videos to portrait, square or landscape for Reels, Shorts and feeds."
+    },
+    {
+      "name": "firemoon-gif-studio",
+      "source": "./plugins/gif-studio",
+      "description": "Turn up to five seconds of a short video into a looping GIF."
+    },
+    {
+      "name": "firemoon-speed-studio",
+      "source": "./plugins/speed-studio",
+      "description": "Speed up or slow down short videos, with audio tempo matched."
+    },
+    {
+      "name": "firemoon-silent-cut",
+      "source": "./plugins/silent-cut",
+      "description": "Remove the audio from short videos."
+    },
+    {
+      "name": "firemoon-clip-composer",
+      "source": "./plugins/clip-composer",
+      "description": "Trim two to four short videos and join them in order."
+    },
+    {
+      "name": "firemoon-privacy-blur",
+      "source": "./plugins/privacy-blur",
+      "description": "Blur a fixed area of a short video, such as a licence plate or a screen."
+    },
+    {
+      "name": "firemoon-video-look-lab",
+      "source": "./plugins/video-look-lab",
+      "description": "Apply fixed colour presets to short videos."
+    },
+    {
+      "name": "firemoon-vertical-remix",
+      "source": "./plugins/vertical-remix",
+      "description": "Reframe short videos to 9:16, 1:1 or 4:5 by cropping or padding."
+    },
+    {
+      "name": "firemoon-collage-studio",
+      "source": "./plugins/collage-studio",
+      "description": "Arrange two to six photos into a grid, story or strip."
+    },
+    {
+      "name": "firemoon-retro-camera",
+      "source": "./plugins/retro-camera",
+      "description": "Give photos a warm-film, monochrome or cool-chrome look."
+    },
+    {
+      "name": "firemoon-color-match",
+      "source": "./plugins/color-match",
+      "description": "Correct the colour of photos: temperature, brightness, contrast, saturation and gamma."
+    }
+  ]
+}

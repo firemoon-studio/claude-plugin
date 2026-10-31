@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-retro-camera": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/retro-camera/mcp"
+    }
+  }
+}

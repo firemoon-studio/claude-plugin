@@ -1,0 +1,20 @@
+{
+  "name": "firemoon-color-match",
+  "displayName": "Color Match",
+  "version": "1.0.0",
+  "description": "Correct the colour of photos: temperature, brightness, contrast, saturation and gamma. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "image",
+    "color-correction",
+    "photo-editing"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-privacy-blur": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/privacy-blur/mcp"
+    }
+  }
+}

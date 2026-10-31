@@ -1,0 +1,21 @@
+{
+  "name": "firemoon-retro-camera",
+  "displayName": "Retro Camera",
+  "version": "1.0.0",
+  "description": "Give photos a warm-film, monochrome or cool-chrome look. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "image",
+    "photo-filter",
+    "film",
+    "vintage"
+  ]
+}

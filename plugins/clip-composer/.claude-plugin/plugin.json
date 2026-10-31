@@ -1,0 +1,21 @@
+{
+  "name": "firemoon-clip-composer",
+  "displayName": "Clip Composer",
+  "version": "1.0.0",
+  "description": "Trim two to four short videos and join them in order. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "video",
+    "join",
+    "trim",
+    "montage"
+  ]
+}

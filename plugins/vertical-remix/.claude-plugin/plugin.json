@@ -1,0 +1,21 @@
+{
+  "name": "firemoon-vertical-remix",
+  "displayName": "Vertical Remix",
+  "version": "1.0.0",
+  "description": "Reframe short videos to 9:16, 1:1 or 4:5 by cropping or padding. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "video",
+    "reframe",
+    "vertical-video",
+    "aspect-ratio"
+  ]
+}

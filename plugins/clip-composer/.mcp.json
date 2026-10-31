@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firemoon-clip-composer": {
+      "type": "http",
+      "url": "https://mcp.firemoon.studio/claude/clip-composer/mcp"
+    }
+  }
+}

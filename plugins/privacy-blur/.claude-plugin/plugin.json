@@ -1,0 +1,21 @@
+{
+  "name": "firemoon-privacy-blur",
+  "displayName": "Privacy Blur",
+  "version": "1.0.0",
+  "description": "Blur a fixed area of a short video, such as a licence plate or a screen. Fixed edits run by Firemoon; no AI generation.",
+  "author": {
+    "name": "Firemoon Studio",
+    "email": "support@firemoon.studio",
+    "url": "https://firemoon.studio"
+  },
+  "homepage": "https://firemoon.studio",
+  "repository": "https://github.com/firemoon-studio/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://firemoon.studio/privacy",
+  "keywords": [
+    "video",
+    "blur",
+    "privacy",
+    "redact"
+  ]
+}

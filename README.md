@@ -1,53 +1,33 @@
-# Firemoon Tools
+# Firemoon for Claude
 
-Claude plugin for quick, fixed edits to short videos. Crop a clip to portrait, square or landscape, change its speed, remove its audio, turn part of it into a GIF, or trim and join two to four clips. Every edit runs through [Firemoon Studio](https://firemoon.studio)'s remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
+Eleven Claude plugins from [Firemoon Studio](https://firemoon.studio), one per tool. Each one makes a fixed edit to a video or photo you link to. None of them use AI to generate or redraw media.
 
-These tools do not use AI models. Each one is a fixed ffmpeg operation, so the output contains only frames and sound from your own clips.
+| Plugin | What it does | Remote MCP server |
+| --- | --- | --- |
+| [Video Crop](plugins/video-crop) | Center-crop short videos to portrait, square or landscape for Reels, Shorts and feeds. | `https://mcp.firemoon.studio/claude/video-crop/mcp` |
+| [GIF Studio](plugins/gif-studio) | Turn up to five seconds of a short video into a looping GIF. | `https://mcp.firemoon.studio/claude/gif-studio/mcp` |
+| [Speed Studio](plugins/speed-studio) | Speed up or slow down short videos, with audio tempo matched. | `https://mcp.firemoon.studio/claude/speed-studio/mcp` |
+| [Silent Cut](plugins/silent-cut) | Remove the audio from short videos. | `https://mcp.firemoon.studio/claude/silent-cut/mcp` |
+| [Clip Composer](plugins/clip-composer) | Trim two to four short videos and join them in order. | `https://mcp.firemoon.studio/claude/clip-composer/mcp` |
+| [Privacy Blur](plugins/privacy-blur) | Blur a fixed area of a short video, such as a licence plate or a screen. | `https://mcp.firemoon.studio/claude/privacy-blur/mcp` |
+| [Video Look Lab](plugins/video-look-lab) | Apply fixed colour presets to short videos. | `https://mcp.firemoon.studio/claude/video-look-lab/mcp` |
+| [Vertical Remix](plugins/vertical-remix) | Reframe short videos to 9:16, 1:1 or 4:5 by cropping or padding. | `https://mcp.firemoon.studio/claude/vertical-remix/mcp` |
+| [Collage Studio](plugins/collage-studio) | Arrange two to six photos into a grid, story or strip. | `https://mcp.firemoon.studio/claude/collage-studio/mcp` |
+| [Retro Camera](plugins/retro-camera) | Give photos a warm-film, monochrome or cool-chrome look. | `https://mcp.firemoon.studio/claude/retro-camera/mcp` |
+| [Color Match](plugins/color-match) | Correct the colour of photos: temperature, brightness, contrast, saturation and gamma. | `https://mcp.firemoon.studio/claude/color-match/mcp` |
 
 ## Install
 
+Add this marketplace, then install the plugins you want:
+
 ```
-/plugin install firemoon-tools@claude-plugins-official
+/plugin marketplace add firemoon-studio/claude-plugin
+/plugin install firemoon-video-crop@firemoon
 ```
 
-The first time Claude calls a tool, it asks you to sign in to Firemoon. There is no API key to configure. You can revoke access at any time from https://firemoon.studio/keys.
+The first tool call asks you to sign in to Firemoon. There is no API key to configure. You can revoke access at any time from https://firemoon.studio/keys.
 
-## Tools
-
-| Tool | What it does | Settings |
-| --- | --- | --- |
-| `crop_video` | Center-crops a video, keeping timing and audio | `format`: landscape (1280×720), portrait (720×1280) or square (720×720) |
-| `change_video_speed` | Speeds a video up or slows it down; audio tempo follows | `rate`: 0.5, 0.75, 1.25, 1.5 or 2 |
-| `remove_audio` | Removes every audio track | none |
-| `make_gif` | Exports up to 5 seconds as a looping GIF, with no audio | `start`, `end`, `width` (320, 480 or 640), `fps` (8, 12 or 15) |
-| `join_clips` | Trims two to four clips and joins them in order, padded to one frame size | each clip's `start` and `end`, `format` |
-
-Limits: each source video must be an MP4 or MOV at a public `https://` URL, 10 seconds or shorter, and 50 MB or smaller.
-
-## Examples
-
-- "Crop https://example.com/launch.mp4 to portrait for Reels."
-- "Make a 3-second GIF of https://example.com/demo.mp4 starting at 2 seconds, 480 pixels wide."
-- "Take the first 4 seconds of https://example.com/a.mp4 and seconds 1 to 5 of https://example.com/b.mp4 and join them as a square video."
-
-## Cost
-
-Free. These edits do not use Firemoon credits. You need a Firemoon account to sign in.
-
-## What the plugin sends and stores
-
-The plugin adds one remote MCP server, `https://mcp.firemoon.studio/tools/mcp`. It contains no local code, hooks or scripts.
-
-- **Sent to Firemoon:** the video URLs you give Claude and the edit settings for each call. Your Firemoon sign-in token is sent with every request.
-- **Fetched:** Firemoon downloads each source video from its URL to edit it.
-- **Stored:** the edited video is saved to private storage on your Firemoon account. Claude gets a result link and a download link that work for anyone holding them and expire after 24 hours. Source videos are not kept.
-- **Not collected:** your conversation, prompts, or files you did not pass to a tool.
-
-Firemoon's privacy policy: https://firemoon.studio/privacy. Terms: https://firemoon.studio/terms.
-
-## Support
-
-https://firemoon.studio/support or support@firemoon.studio.
+Each plugin's README covers its tool, limits, cost and data handling. Privacy policy: https://firemoon.studio/privacy. Support: https://firemoon.studio/support or support@firemoon.studio.
 
 ## License
 

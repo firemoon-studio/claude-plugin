@@ -1,8 +1,8 @@
 {
-  "name": "firemoon-tools",
-  "displayName": "Firemoon Tools",
+  "name": "firemoon-video-crop",
+  "displayName": "Video Crop",
   "version": "1.0.0",
-  "description": "Crop, retime, mute, trim and join short videos, or turn a clip into a GIF. Fixed edits run by Firemoon; no AI generation.",
+  "description": "Center-crop short videos to portrait, square or landscape for Reels, Shorts and feeds. Fixed edits run by Firemoon; no AI generation.",
   "author": {
     "name": "Firemoon Studio",
     "email": "support@firemoon.studio",
@@ -14,9 +14,8 @@
   "privacyPolicyUrl": "https://firemoon.studio/privacy",
   "keywords": [
     "video",
-    "video-editing",
     "crop",
-    "gif",
-    "ffmpeg"
+    "reels",
+    "vertical-video"
   ]
 }

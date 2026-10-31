@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "firemoon-tools": {
-      "type": "http",
-      "url": "https://mcp.firemoon.studio/tools/mcp"
-    }
-  }
-}
